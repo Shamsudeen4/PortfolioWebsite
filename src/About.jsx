@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import second from './Images/second.png';
+import second from './Images/second.webp';
 import './About.css';
 
 function About() {
@@ -26,7 +26,9 @@ function About() {
   return (
     <section id="Aboutss">
       <main className="new fade-slide-up" ref={aboutRef}>
-        <div className="a"><img src={second} alt="second section" /></div>
+        <div className="a"><img src={second} 
+                    loading="lazy" 
+                    className="second" alt="second section" /></div>
         <div className="abt">
           <h2>About Shamsudeen</h2>
           <p>

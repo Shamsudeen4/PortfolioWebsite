@@ -158,9 +158,14 @@ form{
   }
   .formt{
     width: 80vw;
+    gap: 30px;
   }
   .slide-btn{
     width: 65vw;
     height: 50px;
+  }
+  .forms{
+    flex-direction: column;
+    gap: 30px;
   }
 }

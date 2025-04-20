@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
-   
+    font-display: swap;
   }
   section{
     background-color: #F5F6FA;
@@ -31,6 +31,7 @@
   width: 39vw;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
+  font-display: swap;
   font-weight: 500;
   /* background-color: aquamarine; */
 }
@@ -52,6 +53,15 @@
 .fade-slide-up.visible {
   opacity: 1;
   transform: translateY(0);
+}
+.second {
+  width: 100%;
+  max-width: 400px; /* adjust as needed */
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 @media screen and (max-width: 750px) {
   .new{

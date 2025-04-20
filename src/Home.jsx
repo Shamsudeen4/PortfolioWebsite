@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Home.css'
-import Shams from './Images/gtgsss.png'
+import Shams from './Images/gtgsss.webp'
 
 function Home() {
     const[showlink, setShowlink]= useState(false)
@@ -52,7 +52,13 @@ function Home() {
                     <p> <span role="img" aria-label="wave">👋</span>My name is Shamsudeen, I'm a Frontend Developer and it is lovely to meet you. Check out my work below</p>
                 </div>
                 <div className='myimg'>
-                    <img src={Shams}/>
+                <img 
+                    src={Shams} 
+                    alt="Yusuf Shamsudeen" 
+                    loading="lazy" 
+                    className="profile-img"
+/>
+
                 </div>
             
             </div>

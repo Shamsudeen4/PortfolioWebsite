@@ -164,7 +164,15 @@
     animation: fadeSlideUp 1s ease-out forwards;
     animation-delay: 0.5s;
   }
-  
+  .profile-img {
+    width: 100%;
+    max-width: 400px; /* adjust as needed */
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
   @keyframes fadeSlideUp {
     to {
       opacity: 1;
